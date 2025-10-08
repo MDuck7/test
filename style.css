@@ -1,0 +1,45 @@
+body {
+  	background-image: url('image/bg1.jpg' );
+	background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bottomright {
+  position: absolute;
+  bottom: 0px;
+  right: 0%;
+  color: white;
+  font-size: 15px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+.navbar-left img {
+  height: 40px; /* 调整为你需要的高度 */
+  width: auto;  /* 保持宽高比 */
+  margin-right: 10px; /* 图片和文字之间的间距 */
+  border-radius: 50%; /* 使图片变成圆形 */
+  border: 2px solid white; /* 可选：给图片添加边框 */
+}
+.navbar-left p {
+  color: white;
+  font-size: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin: 0; /* 去掉默认的段落外边距 */
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+  font-family: 'Times New Roman', serif;
+  text-align: center;
+
+}
+
